@@ -1,0 +1,3 @@
+[submodule "AdvTiledLoader"]
+	path = AdvTiledLoader
+	url = git://github.com/jamienicol/Advanced-Tiled-Loader.git
