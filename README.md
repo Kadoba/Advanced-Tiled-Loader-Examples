@@ -1,5 +1,4 @@
-
-These are the example files for [Advanced Tiled Loader](https://github.com/Kadoba/Advanced-Tiled-Loader-Example).
+These are the example files for [Advanced Tiled Loader](https://github.com/Kadoba/Advanced-Tiled-Loader).
 
 You can retreive the files from this repo with this command:
 `````
