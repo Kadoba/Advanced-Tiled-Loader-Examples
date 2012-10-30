@@ -1,4 +1,3 @@
-
 -- Setup
 local loader = require("AdvTiledLoader.Loader")
 loader.path = "maps/"
@@ -86,7 +85,7 @@ end
 
 ---------------------------------------------------------------------------------------------------
 -- Add the guy to be drawn after the tile he's on
-layer:newAfterTileFunction( function(layer, tileX, tileY, drawX, drawY)
+layer:setAfterTileFunction( function(layer, tileX, tileY, drawX, drawY)
     if tileX == Guy.tileX and tileY == Guy.tileY then Guy.draw(drawX, drawY) end
 end )
 
