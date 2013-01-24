@@ -59,7 +59,7 @@ end
 function love.keypressed(k)
     -- quit
     if k == 'escape' then
-        (love.event.push or love.event.quit)('q')
+        love.event.push("quit")
     end
     
     -- previous map
